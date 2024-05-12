@@ -1,0 +1,125 @@
+.footer {
+    margin-top: 150px;
+    padding: 100px 15%;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 27px;
+    font-size: 15px;
+    cursor: pointer;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 32px;
+    margin-top: 10px;
+    margin: 0 7px;
+}
+
+.col-1 {
+    animation-name: col1;
+    animation-duration: 3s;
+}
+
+.col-2 {
+    animation-name: col2;
+    animation-duration: 3s;
+}
+
+.col-3 {
+    animation-name: col3;
+    animation-duration: 3s;
+    animation-direction: reverse;
+}
+
+@keyframes col1 {
+    0% {
+        position: absolute;
+        left: -200px;
+    }
+    50% {
+        position: absolute;
+        left: 0;
+    }
+    100% {
+        position: absolute;
+        left: 30px;
+    }
+}
+
+@keyframes col3 {
+    0% {
+        position: absolute;
+        right: -200px;
+    }
+    50% {
+        position: absolute;
+        right: 0;
+    }
+    100% {
+        position: absolute;
+        right: 30px;
+    }
+}
+
+@keyframes col2 {
+    0% {
+        position: absolute;
+        top: -200px;
+    }
+    50% {
+        position: absolute;
+        top: 0;
+    }
+    100% {
+        position: absolute;
+        top: 30px;
+    }
+}
