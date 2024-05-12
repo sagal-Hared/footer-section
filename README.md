@@ -1,0 +1,2 @@
+
+A footer is a section at the bottom of a webpage or document that typically contains information about the page, copyright notices, links to relevant resources, contact information, and sometimes navigation links or other supplementary content. It serves as a way to provide additional context or functionality to the user, often appearing consistently across multiple pages within a website to maintain a cohesive design and provide continuity.
